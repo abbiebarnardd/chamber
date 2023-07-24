@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <script src="https://kit.fontawesome.com/4c19daf9f9.js" crossorigin="anonymous"></script>
+    <title>WDD 230 Design Principles</title>
+</head>
+<body>
+    <div class="sitewrapper">
+<div class="page">
+    <body onload="currentDate();">
+        <script src="scripts/currentdate.js"></script>
+        <div id="chamber" style="display: none;">
+            <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+        </div>
+    <header>
+        <img class="headerlogo" src="images/westsidesunny.png" alt="logo">
+        <div id="datetoday"></div>
+    </header>
+
+    <nav class="navbar">
+        
+       <button id="hamButton">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="join.html" title="Join">Join Us</a></li>
+            <li><a href="directory.html" title="Directory">Directory</a></li>
+            <li><a href="discover.html" title="Discover">Discover</a></li>
+            <li><a href="contact.html" title="Contact">Contact</a></li>
+        <div class="social-facebook">
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        <div class="social-instagram">
+            <a href="https://instagram.com">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        </ul>
+    </nav>
+    <main class="contactmain">
+    
+        <div id="contactus">
+            
+            <div class="box1contact">
+                <h3>Contact Information</h3>
+                
+                <hr>
+                <p>📍 123 Valley Dr. Mesquite NV, 89027</p>
+                <p>📞 (123) -456-7890</p>
+                <p>📧westsidesunny@gmail.com</p>
+                <p>Office hours: Monday-Friday 1pm-5pm</p>
+               
+            </div>
+            <div class="box2contact">
+                <h3>Board of Director Information</h3>
+                <hr>
+                 <p>President: Abbie Barnard </p>
+                <p>Vice President: Sharen Smith</p>
+                <p>Secretary: John Wade</p>
+                <p>Treasurer: Kevin Johnson</p>
+            </div>
+            <form action="thankyou.html">
+            <fieldset class="businessinfo2">
+                <legend class="title">Questions</legend>
+                <label>Name:<br> <input style="font-size: 20px" name="businessposition" type="text" placeholder="Your Name"> </label>
+                <br>
+                <label>Contact Number<br /><input style="font-size: 20px" name="contact" type="tel" placeholder="702-123-4567" required/> </label>
+                <br>
+                <label>Question</label>
+                <textarea class="businessdescription" style="font-size: 20px" name="businessdescription"  placeholder=""> </textarea> 
+                <br>
+            </fieldset>
+            <button type="submit" value="Submit" class="submitbutton">Submit Form</button>
+        </form>
+           </div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <p>West Side Sunny</p>
+            <p>123 Valley Dr. Mesquite NV, 89027</p>
+            <p>westsidesunny@gmail.com</p>
+            <p>123-456-7890</p>
+            <a class="map" href="https://googlemaps.com">📍 Map Location</a>
+        </div>
+        <div class="class-info">
+        <p>&copy; <span id="currentYear"></span> | West Side Sunny | Abbie Barnard | WDD 230 Project | Last Updated: <span id="currentdate"></span> </p>
+        </div>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/weather.js"></script>
+        <script src="scripts/meetandgreet.js"></script>
+        
+       </footer>
+    </body>
+    </div>
+    </html>

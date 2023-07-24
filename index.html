@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <script src="https://kit.fontawesome.com/4c19daf9f9.js" crossorigin="anonymous"></script>
+    <title>WDD 230 Design Principles</title>
+</head>
+<body>
+    <div class="sitewrapper">
+<div class="page">
+    <body onload="currentDate();">
+        <script src="scripts/currentdate.js"></script>
+        <div id="chamber" style="display: none;">
+            <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+        </div>
+    <header>
+        <img class="headerlogo" src="images/westsidesunny.png" alt="logo">
+        <div id="datetoday"></div>
+    </header>
+
+    <nav class="navbar">
+        
+       <button id="hamButton">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="join.html" title="Join">Join Us</a></li>
+            <li><a href="directory.html" title="Directory">Directory</a></li>
+            <li><a href="discover.html" title="Discover">Discover</a></li>
+            <li><a href="contact.html" title="Contact">Contact</a></li>
+        <div class="social-facebook">
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        <div class="social-instagram">
+            <a href="https://instagram.com">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        </ul>
+    </nav>
+
+    <main>
+    
+       <div id="main">
+       <img class="valley-of-fire" src="images/mesquite3.webp" alt="mesquite">
+       <h1 class="mainheader">Welcome!</h1>
+       <button class="mainbutton"><a href="join.html"alt="Join Us">Join Us</a></button>
+       </div> 
+
+       <div id="sidebar">
+        <div class="box1">
+            <h3 class="box1header">Meal Delivery</h3>
+            <p class="mealicon">🍽️</p>
+            <hr>
+            <p class="box1text">📧 mesquitemealdelivery@gmail.com</p>
+            <p class="box1text">☎ 123-456-7890</p>
+           
+        </div>
+        <div class="box2">
+            <h3 class="box1header">Valley Home Health</h3>
+             <p class="mealicon">🩺</p>
+            <hr>
+            <p class="box1text">📧 valleyhomehealth@gmail.com</p>
+            <p class="box1text">☎ 123-123-0000</p>
+        </div>
+        <div class="box3">
+            <h3 class="box1header">Entertainment</h3>
+            <p class="mealicon">🎥</p>
+            <hr>
+            <p class="box1text">📧 mesquiteentertainment@gmail.com</p>
+            <p class="box1text">☎ 123-111-7320</p>
+        </div>
+       </div>
+
+       <div id="content1">
+        <h3 class="content1header">Events</h3>
+        <h3 class="content1header2">⛳ Mesquite City Recreation</h3>
+        <div class="content1text">
+            <p>
+                Join us for the hot air baloon fesitval featuring 50 hot air ballons soaring over the Mesquite Skies. Thursday @9am <a href="#">more..</a>
+            </p>
+        </div>
+       </div>
+
+       <div id="content2">
+        <div class="weather">
+            <h3 class="weatherheader">Mesquite Weather</h3>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption class="condition"></figcaption>
+            </figure>
+            
+            
+            <div id="current-temp"></div>
+            <div id="speed"> <span id="windSpeed"></span></div>
+            <div id="chill"> <span id="windChill"></span></div>
+        
+        </div>
+        </div>
+       <div id="content3">
+        <button class="content3button"><a href="join.html"alt="Join Us">Join Us</a></button>
+        <div class="content3text">
+            <p>Learn how to join us here at West Side Sunny and how it will add to your life. </p>
+        </div>
+       </div>
+
+       <div id="content4">
+
+        <div class="content4text">
+        <h3 class="content4header">News: Resident of the Month</h3>
+        <p>Elaine Ladle has been here with us at West Side Sunny
+            for 2 years. She loves to particpate in as many activites
+            as she can, especially the crafting activites. She moved
+            from Boise, Id to be near her daughter in Mesquite. 
+            She's made lots of friends within the community. We are happy you
+            are here, Elaine! </p>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <p>West Side Sunny</p>
+            <p>123 Valley Dr. Mesquite NV, 89027</p>
+            <p>westsidesunny@gmail.com</p>
+            <p>123-456-7890</p>
+            <a class="map" href="https://googlemaps.com">📍 Map Location</a>
+        </div>
+        <div class="class-info">
+        <p>&copy; <span id="currentYear"></span> | West Side Sunny | Abbie Barnard | WDD 230 Project | Last Updated: <span id="currentdate"></span> </p>
+        </div>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/weather.js"></script>
+        <script src="scripts/meetandgreet.js"></script>
+        
+       </footer>
+    </body>
+    <!--</div>--->
+    </html>

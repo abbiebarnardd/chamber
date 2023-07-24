@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base2.css">
+    <link rel="stylesheet" href="styles/medium2.css">
+    <link rel="stylesheet" href="styles/small2.css">
+    <script src="https://kit.fontawesome.com/4c19daf9f9.js" crossorigin="anonymous"></script>
+    <title>Bountiful Fruits Final</title>
+</head>
+<body>
+    <div class="sitewrapper">
+<div class="page">
+    <body onload="currentDate();">
+        <script src="scripts/currentdate.js"></script>
+        <nav class="navbar">
+        
+            <button id="hamButton">&#9776;</button>
+             <ul class="navigation">
+                 <li><a href="index.html" title="Home">Home</a></li>
+                 <li><a href="fresh.html" title="Fresh">Fresh</a></li>
+                 <li><a href="" title="Directory">About Us</a></li>
+
+             <div class="social-facebook">
+                 <a href="https://facebook.com">
+                     <i class="fa-brands fa-facebook"></i>
+                 </a>
+            
+             
+                 <a href="https://instagram.com">
+                     <i class="fa-brands fa-instagram"></i>
+                 </a>
+            
+                 <a href="https://twitter.com">
+                     <i class="fa-brands fa-twitter"></i>
+                 </a>
+             </div>
+
+             </ul>
+         </nav>
+    <header>
+        
+        <img class="headerlogo" src="images/bountifulfoods.png" alt="logo">
+        <!--<div id="datetoday"></div>-->
+        
+    </header>
+
+       <h1 class="mainheader">Freshest Produce. Most Satisfied Customers.</h1>
+
+
+       <p class="content1p">Here at Bountiful Foods, we sell locally fresh grown produce and blended drinks. We understand the importance of healthy,
+        intuitive eating and provide quality products that fit with your healthy lifestyle.</p>
+ 
+    <main>
+
+       <div id="sidebar">
+        <div class="box1">
+            <h3 class="box1header">Laguna Beach</h3>
+            <img class="lagunabeach" src="images/lagunabeach.jpeg" alt="logo">
+            <p class="lagunabeachp">Laguna Beach is smaller coastal community in Southern California. It is knonw for being idylic and full of art.
+                It is home to beautiful beaches and gorgeous views. Vistors have a broad range of activities to enjoy including 
+                spending an afternoon in Heisler Park, visting Main Beach, and attending the Sawdust Art Festival.
+            </p>
+        </div>
+        <div class="box2">
+            <h3 class="box1header">Newport Beach</h3>
+            <img class="lagunabeach" src="images/newportbeach.jpeg" alt="logo">
+             <p class="newportbeachp">Newport Beach is known for its sandy beaches and for being a prime swimming destination. Visitors can enjoy activities such
+                as whale watching, visiting Crystal Cove, watching surfers at The Wedge, exploring the Newport Harbor, going shopping at some
+                of the finest malls, and visiting Balboa Pier and Balboa Fun Zone.
+             </p>
+        </div>
+       </div>
+       
+       <div id="content2">
+            <h3 class="drinkheader">Make Your Own Fruit Drink!</h3>
+            <p class="choose">Choose from our list of fruits and create a delicious blended fruit drink!</p>
+            <img class="fruitdrink" src="images/fruitdrink.jpeg" alt="logo">
+            <button class="content3button"><a href="fresh.html"alt="Join Us">Make Drink</a></button>
+            <div class="display-number-orders">My Orders: <span id="drink-total">0</span></div>
+       
+        </div>
+        </main>
+
+        <div id="content3">
+            <div class="forecast">
+                <div id="weather">
+                    <h3 class="weatherheader">Carlsbad Weather</h3>
+                    <figure>
+                        <img src="" alt="" id="weather-icon" />
+                        <figcaption class="condition"></figcaption>
+                    </figure>
+                    
+                    <div id="current-temp"></div>
+                    <div id="speed"> <span id="windSpeed"></span></div>
+                </div>
+    
+                <div id="weather1">
+                    <h3><span>Sat</span></h3>
+                    <img class="weatherIcon" src="https://openweathermap.org/img/w/01n.png" alt="Weather Icon">
+                    <p> <span>70°C</span></p>
+                    <p>clear sky</p>
+                    <p><span>Humidity: </span> <span class="humid">75</span></p>
+                </div>
+                <div id="weather2">
+                    <h3> <span>Sun</span></h3>
+                    <img class="weatherIcon" src="https://openweathermap.org/img/w/03n.png" alt="Weather Icon">
+                    <p> <span>71°C</span></p>
+                    <p>scattered clouds</p>
+                    <p><span>Humidity: </span> <span class="humid">63</span></p>
+                </div>
+                <div id="weather3">
+                    <h3 class="day"> <span>Mon</span></h3>
+                    <img class="weatherIcon" src="https://openweathermap.org/img/w/04n.png" alt="Weather Icon">
+                    <p> <span>75°C</span></p>
+                    <p>broken clouds</p>
+                    <p><span>Humidity: </span> <span class="humid">70</span></p>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <div class="footer-info">
+            <p>Bountiful Foods</p>
+            <p>123 Valley Dr. Carlsbad, CA 92013</p>
+            <p>bountifulfoodsy@gmail.com</p>
+            <p>123-456-7890</p>
+            <a class="map" href="https://googlemaps.com">📍 Map Location</a>
+        </div>
+        <div class="class-info">
+        <p>&copy; <span id="currentYear"></span> | Bountiful Foods | Abbie Barnard | WDD 230 Final | Last Updated: <span id="currentdate"></span> </p>
+        </div>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/weather.js"></script>
+       </footer>
+    </body>
+    <!--</div>--->
+    </html>

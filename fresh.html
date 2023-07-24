@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base2.css">
+    <link rel="stylesheet" href="styles/medium2.css">
+    <link rel="stylesheet" href="styles/small2.css">
+    <script src="https://kit.fontawesome.com/4c19daf9f9.js" crossorigin="anonymous"></script>
+    <title>WDD 230 Design Principles</title>
+</head>
+<body>
+    <div class="sitewrapper">
+<div class="page">
+    <body onload="currentDate();">
+        <script src="scripts/currentdate.js"></script>
+        <nav class="navbar">
+        
+            <button id="hamButton">&#9776;</button>
+             <ul class="navigation">
+                 <li><a href="index2.html" title="Home">Home</a></li>
+                 <li><a href="fresh.html" title="Join">Fresh</a></li>
+                 <li><a href="aboutus.html" title="Directory">About Us</a></li>
+
+             <div class="social-facebook">
+                 <a href="https://facebook.com">
+                     <i class="fa-brands fa-facebook"></i>
+                 </a>
+            
+             
+                 <a href="https://instagram.com">
+                     <i class="fa-brands fa-instagram"></i>
+                 </a>
+            
+                 <a href="https://twitter.com">
+                     <i class="fa-brands fa-twitter"></i>
+                 </a>
+             </div>
+
+             </ul>
+         </nav>
+    <header>
+        
+        <img class="headerlogo" src="images/bountifulfoods.png" alt="logo">
+        <!--<div id="datetoday"></div>-->
+        
+    </header>
+
+    <main class="freshmain">
+        <img class="freshimage" src="images/shutterstockfruit.jpeg" alt="freshimage">
+        <fieldset class="fruitform">
+        <legend class="freshtitle">Make A Drink</legend>
+            <label class="firstname">
+            <p>First Name</p>
+            <input type="text" name="fname" id="name" required=""></label>
+            <label class="email">
+            <p>Email</p>
+            <input type="email" name="email" id="email" required=""></label>
+            <label class="phone">
+            <p>Phone</p>
+            <input type="tel" name="phone" id="phone" placeholder="123-456-7890" required=""></label>
+            <br>
+            <label class="pleasechoose" for="fruits1">Please choose 3 fruits:</label>
+            <select name="fruits" id="fruits1" required="">
+                <option value="">First fruit</option>
+            <option value="Apple">Apple</option>
+            <option value="Apricot">Apricot</option>
+            <option value="Avocado">Avocado</option>
+            <option value="Banana">Banana</option>
+            <option value="Blackberry">Blackberry</option>
+            <option value="Blueberry">Blueberry</option>
+            <option value="Cherry">Cherry</option>
+            <option value="Dragonfruit">Dragonfruit</option>
+            <option value="Durian">Durian</option>
+            <option value="Feijoa">Feijoa</option>
+            <option value="Fig">Fig</option>
+            <option value="Gooseberry">Gooseberry</option>
+            <option value="Grape">Grape</option>
+            <option value="Grapes">Grapes</option>
+            <option value="GreenApple">GreenApple</option>
+            <option value="Guava">Guava</option>
+            <option value="Kiwi">Kiwi</option>
+            <option value="Kiwifruit">Kiwifruit</option>
+            <option value="Lemon">Lemon</option>
+            <option value="Lime">Lime</option>
+            <option value="Lingonberry">Lingonberry</option>
+            <option value="Lychee">Lychee</option>
+            <option value="Mango">Mango</option>
+            <option value="Melon">Melon</option>
+            <option value="Morus">Morus</option>
+            <option value="Orange">Orange</option>
+            <option value="Papaya">Papaya</option>
+            <option value="Passionfruit">Passionfruit</option>
+            <option value="Pear">Pear</option>
+            <option value="Persimmon">Persimmon</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="Pitahaya">Pitahaya</option>
+            <option value="Plum">Plum</option>
+            <option value="Pomegranate">Pomegranate</option>
+            <option value="Raspberry">Raspberry</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Tangerine">Tangerine</option>
+            <option value="Tomato">Tomato</option>
+            <option value="Watermelon">Watermelon</option>
+        </select>
+            <select name="fruits" id="fruits2" required="">
+                <option value="">Second fruit</option>
+            <option value="Apple">Apple</option>
+            <option value="Apricot">Apricot</option>
+            <option value="Avocado">Avocado</option>
+            <option value="Banana">Banana</option>
+            <option value="Blackberry">Blackberry</option>
+            <option value="Blueberry">Blueberry</option>
+            <option value="Cherry">Cherry</option>
+            <option value="Dragonfruit">Dragonfruit</option>
+            <option value="Durian">Durian</option>
+            <option value="Feijoa">Feijoa</option>
+            <option value="Fig">Fig</option>
+            <option value="Gooseberry">Gooseberry</option>
+            <option value="Grape">Grape</option>
+            <option value="Grapes">Grapes</option>
+            <option value="GreenApple">GreenApple</option>
+            <option value="Guava">Guava</option>
+            <option value="Kiwi">Kiwi</option>
+            <option value="Kiwifruit">Kiwifruit</option>
+            <option value="Lemon">Lemon</option>
+            <option value="Lime">Lime</option>
+            <option value="Lingonberry">Lingonberry</option>
+            <option value="Lychee">Lychee</option>
+            <option value="Mango">Mango</option>
+            <option value="Melon">Melon</option>
+            <option value="Morus">Morus</option>
+            <option value="Orange">Orange</option>
+            <option value="Papaya">Papaya</option>
+            <option value="Passionfruit">Passionfruit</option>
+            <option value="Pear">Pear</option>
+            <option value="Persimmon">Persimmon</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="Pitahaya">Pitahaya</option>
+            <option value="Plum">Plum</option>
+            <option value="Pomegranate">Pomegranate</option>
+            <option value="Raspberry">Raspberry</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Tangerine">Tangerine</option>
+            <option value="Tomato">Tomato</option>
+            <option value="Watermelon">Watermelon</option>
+            </select>
+           
+            <select name="fruits" id="fruits3" required="">
+                <option value="">Third fruit</option>
+                <option value="Apple">Apple</option>
+                <option value="Apricot">Apricot</option>
+                <option value="Avocado">Avocado</option>
+                <option value="Banana">Banana</option>
+                <option value="Blackberry">Blackberry</option>
+                <option value="Blueberry">Blueberry</option>
+                <option value="Cherry">Cherry</option>
+                <option value="Dragonfruit">Dragonfruit</option>
+                <option value="Durian">Durian</option>
+                <option value="Feijoa">Feijoa</option>
+                <option value="Fig">Fig</option>
+                <option value="Gooseberry">Gooseberry</option>
+                <option value="Grape">Grape</option>
+                <option value="Grapes">Grapes</option>
+                <option value="GreenApple">GreenApple</option>
+                <option value="Guava">Guava</option>
+                <option value="Kiwi">Kiwi</option>
+                <option value="Kiwifruit">Kiwifruit</option>
+                <option value="Lemon">Lemon</option>
+                <option value="Lime">Lime</option>
+                <option value="Lingonberry">Lingonberry</option>
+                <option value="Lychee">Lychee</option>
+                <option value="Mango">Mango</option>
+                <option value="Melon">Melon</option>
+                <option value="Morus">Morus</option>
+                <option value="Orange">Orange</option>
+                <option value="Papaya">Papaya</option>
+                <option value="Passionfruit">Passionfruit</option>
+                <option value="Pear">Pear</option>
+                <option value="Persimmon">Persimmon</option>
+                <option value="Pineapple">Pineapple</option>
+                <option value="Pitahaya">Pitahaya</option>
+                <option value="Plum">Plum</option>
+                <option value="Pomegranate">Pomegranate</option>
+                <option value="Raspberry">Raspberry</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Tangerine">Tangerine</option>
+                <option value="Tomato">Tomato</option>
+                <option value="Watermelon">Watermelon</option>
+            </select>
+            <br>
+            <br>
+            <label class="top">
+            <p>Special Instructions</p>
+            <textarea name="comments" id="spinstructions"></textarea></label>
+            <input type="hidden" id="dateTime" value="Sat Jul 22 2023 18:08:07 GMT-0700 (Pacific Daylight Time)">
+            <input type="submit" value="Create Drink" class="freshbutton">
+        </fieldset>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p>Bountiful Foods</p>
+            <p>123 Valley Dr. Carlsbad, CA 92013</p>
+            <p>bountifulfoodsy@gmail.com</p>
+            <p>123-456-7890</p>
+            <a class="map" href="https://googlemaps.com">📍 Map Location</a>
+        </div>
+        <div class="class-info">
+        <p>&copy; <span id="currentYear"></span> | Bountiful Foods | Abbie Barnard | WDD 230 Final | Last Updated: <span id="currentdate"></span> </p>
+        </div>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/weather.js"></script>
+       </footer>
+    </body>
+    <!--</div>--->
+    </html>

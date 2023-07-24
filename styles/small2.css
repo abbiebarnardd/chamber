@@ -1,0 +1,74 @@
+@media (max-width: 600px) {
+
+    .sitewrapper {
+        width: 100%;
+        overflow-x: hidden;
+    }
+/*------------Navigation------------*/
+   
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "sidebar"
+        "content2"
+        "content3";
+    max-height: 1650px;
+      
+}
+    #sidebar{
+    
+        padding: .5rem .5rem .5rem .5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "box1"
+        "box2";
+        grid-area: sidebar;
+        
+        
+    }
+
+    .mainbutton {
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -15%);
+    }
+
+    .mainbutton a {
+        font-size: 1.5rem;
+    }
+
+    img:hover {
+       opacity: 100;
+    }
+
+    .social-instagram {
+        display: none;
+    }
+    .lagunabeach {
+        width: 180px;
+        height: 180px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .box1, .box2 {
+        height: 480px;
+    }
+
+   .fruitform {
+        max-width: 200px;
+    }
+
+    #spinstructions {
+        width: 200px;
+    }
+
+    .fruitbanner {
+        max-width: 300px;
+    }
+}
